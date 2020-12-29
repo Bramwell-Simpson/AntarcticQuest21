@@ -19,3 +19,9 @@ html
 {
     background-image: url("images/canvas4.jpg");
 }
+
+.img-small
+{
+    height: 307px;
+    width: 385px;
+}
