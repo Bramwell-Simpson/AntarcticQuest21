@@ -6,4 +6,5 @@ deployment:
   - /bin/cp app.css $DEPLOYPATH
   - /bin/cp -R images $DEPLOYPATH
   - /bin/cp -R biopages $DEPLOYPATH
+  - /bin/cp cirrius.css $DEPLOYPATH
   
