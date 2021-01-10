@@ -20,6 +20,11 @@ html
     background-image: url("images/canvas4.jpg");
 }
 
+#splash-img4
+{
+    background-image: url("images/blog-background.jpg");
+}
+
 .img-small
 {
     height: 307px;
