@@ -33,7 +33,7 @@ html
 
 .logo-text
 {
-    color: #d5a940;
+    color: rgb(213, 169, 64) !important;
 }
 
 .fitVids-wrapper {
