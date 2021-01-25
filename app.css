@@ -36,11 +36,18 @@ html
     color: rgb(213, 169, 64) !important;
 }
 
-.fitVids-wrapper {
+.italic-font
+{
+    font-family: 'Alegreya', serif;
+}
+
+.fitVids-wrapper 
+{
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
-  }
+}
+
 .fitVids-wrapper iframe 
 {
     position: absolute;
