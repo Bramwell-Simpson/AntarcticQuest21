@@ -9,5 +9,6 @@ deployment:
   - /bin/cp -R images $DEPLOYPATH
   - /bin/cp -R biopages $DEPLOYPATH
   - /bin/cp cirrius.css $DEPLOYPATH
+  - /bin/cp shackleton-rowett-exped.html $DEPLOYPATH
   
   
