@@ -25,6 +25,17 @@ html
     background-image: url("images/blog-background.jpg");
 }
 
+#splash-img5
+{
+    background-image: url("images/expeditionBGimage.jpeg");
+}
+
+#rowett-picture
+{
+    height: 297px;
+    width: 280px;
+}
+
 .img-small
 {
     height: 307px;
