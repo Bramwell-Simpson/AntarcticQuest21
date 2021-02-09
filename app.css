@@ -36,6 +36,11 @@ html
     width: 280px;
 }
 
+.profile-small
+{
+    font-size: 4.75rem;
+}
+
 .img-small
 {
     height: 307px;
