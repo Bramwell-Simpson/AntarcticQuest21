@@ -35,6 +35,11 @@ html
     background-image: url("images/canvas\ 1.jpg");
 }
 
+#splash-img7
+{
+    background-image: url("images/educationBG.jfif");
+}
+
 #rowett-picture
 {
     height: 297px;
