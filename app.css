@@ -30,10 +30,21 @@ html
     background-image: url("images/expeditionBGimage.jpeg");
 }
 
+#splash-img6
+{
+    background-image: url("images/canvas\ 1.jpg");
+}
+
 #rowett-picture
 {
     height: 297px;
     width: 280px;
+}
+
+#profile-25
+{
+    width: 125%;
+    height: 125%;
 }
 
 .profile-small
