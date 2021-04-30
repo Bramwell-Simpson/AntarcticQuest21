@@ -5414,7 +5414,7 @@ label:last-child:not(:first-child):not(.form-group-label) {
 .nav-item.active {
   opacity: 1; }
 
-@media screen and (min-width: 799px) {
+@media screen and (min-width: 1246px) {
   .header {
     -webkit-box-align: stretch;
     /* Box Align and align items to stretch to make nav-items fill up parent height */
@@ -5530,7 +5530,7 @@ label:last-child:not(:first-child):not(.form-group-label) {
         transform: none;
         pointer-events: auto; } }
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 1246px) {
   /* Add scrolling support in header */
   .header {
     flex-direction: column;
