@@ -2,7 +2,7 @@
     "use strict";
   
     // List of Video Vendors embeds you want to support
-    var players = ['iframe[src*="youtube.com"]', 'iframe[src*="vimeo.com"]', 'iframe[src*="youtube-nocookie.com"]'];
+    var players = ['iframe[src*="youtube.com"]', 'iframe[src*="vimeo.com"]', 'iframe[src*="youtube-nocookie.com"]', 'iframe[src*="players.brightcove.net"'];
   
     // Select videos
     var fitVids = document.querySelectorAll(players.join(","));
