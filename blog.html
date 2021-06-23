@@ -92,6 +92,187 @@
             </p>
             
             <div class="divider"></div>
+
+            <h1 class="black title u-text-center">AQ21 Scientists – Andrew Smedley</h1>
+            <p>
+                I have introduced <a href="https://www.research.manchester.ac.uk/portal/andrew.smedley.html" target="_blank">Andrew Smedley’s </a>project, for which we will collect data on the intensity of ultraviolet light at the Earth’s
+                surface while crossing the Antarctic Peninsula, on the Science Page of the Antarctic Quest 21 website. Here, in the
+                first of the AQ21 Scientist series of publication digests, I am covering a different aspect of his work, which highlights
+                his expertise in using solar irradiation data to understand the internal temperature profile of ice and in turn,
+                processes that affect ice sheet near-surface melting or ice shelf crack formation. <a id="readMoreBTN" onclick="toggleShow()">Read More</a>
+            </p>
+            <div id="readMore" style="display:none">
+                <p>
+                    The paper ‘Solar radiative transfer in Antarctic blue ice: spectral considerations, subsurface enhancement, inclusions
+                    and meteorites’ was published by Andrew RD Smedley, Geoffrey W Evatt, Amy Mallinson and Eleanor Harvey in the
+                    scientific journal <i>The Cryosphere </i>(Volume 14, pages 789-9809) in March 2020. It is open access and you can read it
+                    here: <a href="https://tc.copernicus.org/articles/14/789/2020/" target="_blank">LINK</a>.
+                </p>
+                <p>
+                    The article’s title may not roll of your tongue easily, but the story is intriguing: it’s a deep dive into detail and offers a
+                    glimpse into the world of modelling. This story is about the behaviour of ice in sunlight and, at its core, is a puzzle
+                    stone of knowledge relevant to one the most important environmental challenges of the day: climate change.
+                </p>
+                <p>
+                    At first glance, it’s all common sense: sunlight (solar radiation) arrives at the Earth’s surface and, depending on the
+                    properties of that surface, it is either reflected or absorbed. Different surfaces reflect and absorb different amounts
+                    of radiation. You know that from daily life: Wear a black t-shirt in the sunshine and you’ll feel the warmth of the
+                    absorbed sunlight more intensely than while wearing a white, but otherwise identical, t-shirt. The glare reflecting off
+                    a large snow surface has a different effect on your eyes than sunlight filtered through the canopy of a woodland in
+                    full leaf. You’ll see light scattering in action when you watch the appearance of a freshly pulled pint of real ale
+                    change, as tiny bubbles swirl and finally clear out of the liquid…
+                </p>
+                <p>
+                    When it comes to understanding the processes that determine the temperature profile of ice, and therefore the way
+                    ice melts and cracks, we need to go beyond common sense and consider a lot more detail.
+                </p>
+                <div class="row">
+                    <div class="col-6">
+                        <p>
+                            Andrew and his colleagues combined the laws of physics with Monte Carlo
+                            simulation to extend insights from previously developed models with a
+                            broader inclusion of processes that affect ice behaviour. Monte Carlo
+                            simulations are a widely used approach to simulating physical, biological
+                            and economic processes that uses randomness in the generation of
+                            numerical results. I will not go further into the mathematical detail here.
+                        </p>
+                        <p>
+                            The model simulates photons (of which sunlight, or solar irradiance,
+                            consists) that have entered the ice (i.e. they were not reflected at its
+                            surface) travelling along random pathways into and through the ice. They
+                            may be scattered by trapped air bubbles, absorbed by the ice or particles
+                            enclosed within it, or escape the ice through its surface into the air. Figure
+                            1 illustrates these ideas schematically. The purpose of the model is to
+                            calculate how light travels up and down in ice and how much of the
+                            incoming light is present at a given depth below the surface.
+                        </p>
+                        <p>
+                            Figure 1 Schematic illustration of interaction between solar irradiance
+                            (sunlight) and the ice surface (reflection, admittance), trapped air bubbles
+                            (scattering, absorption) and embedded particles (absorption), as well as
+                            with the ice itself (movement through, absorption).
+                        </p>
+                        <p>
+                            By definition, a model is a simplified version of the system we are seeking to understand. The architect’s drawing of
+                            a house is not the house itself, but it conveys information for the purpose of illustrating design. Equally, in the design
+                            of a mathematical model, the number of processes and parameters considered, the resolution in time or space, the
+                            sophistication of the algorithms used, depend on what we want to know and on what we know already.
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <img src="images/BlogImages/simulatedModel.png">
+                    </div>
+                </div>
+               
+                <p>
+                    To me, discovering the level of detail incorporated into the model of how sunlight interacts with ice, reinforced my respect for the art of modelling:
+                </p>
+                <p>
+                    <ol>
+                        <li>
+                            Sunlight.
+                            <p>
+                                Think back to school and you’ll remember that light consists of a whole spectrum of electromagnetic
+                                radiation, waves of different wavelengths. These may be in the visible range (think of a rainbow) or outside
+                                the visible range, for example the ultraviolet light we tend to protect ourselves from using sun cream and
+                                sunglasses. The solar irradiance that arrives at the Earth’s surface depends on the angle of the sun (solar
+                                zenith angle) and its interaction with the atmosphere. Light of different wavelengths interact differently with
+                                the atmosphere, including clouds, particles and vapour. The model uses parameters for solar irradiance
+                                spectra measured near a mountain range in Antarctica for both, diffuse and direct sunlight.
+                            </p>
+                        </li>
+                        <li>
+                            Optical properties of ice that contains bubbles.
+                            <p>
+                                Perhaps suffice to say that a set of mathematical expressions is used to describe the optical properties of the
+                                ice in relation to the wavelength of the photons being tracked through the ice, the number and size of the
+                                trapped bubbles and the way they scatter and absorb photons.
+                            </p>
+                        </li>
+                        <li>
+                            Bubbles.
+                            <p>
+                                Only one set of data seems to exist that describes the density and properties of ice bubbles in Antarctic blue
+                                ice. These were used and adjusted with other data from literature to provide a more general estimate of
+                                bubble number concentration and their geometry in ice with and without cracks, for use in the model. As an
+                                example, one of the results presented in the paper was based on 415 bubbles of 0.4 mm diameter in each
+                                cubic centimetre of ice.
+                            </p>
+                        </li>
+                        <li>
+                            Particles.
+                            <p>
+                                Particles trapped within the surface ice literally fall from the sky, as part of ‘atmospheric deposition’
+                                (entrained and carried by wind or snow) or meteorites, which is surprisingly common. Particles of different
+                                geometries were considered, including spherical, planar and ellipsoidal (‘balls’, ‘plates’ and ‘eggs’) of less
+                                than 1 mm in size. The model was also applied specifically to iron-rich meteorites of several cm across.
+                            </p>
+                        </li>
+                        <li>
+                            Photons.
+                            <p>
+                                In the model, the positions of individual photons of specific wavelengths are tracked. Where they arrive at
+                                the surface of the ice at a particular angle, their reflection or entry into the ice is calculated, as well as
+                                refraction. Once within the ice, photons either return to the atmosphere, are absorbed or pass below a
+                                depth where they are deemed not to make a significant contribution (below 16 m ice) to ice behaviour. The
+                                model uses an innovative set of calculations that determines whether, where and how a photon interacts
+                                with a bubble or particle and at what point it will cease to be tracked because it left the ice or travelled
+                                below 16 m depth. The record of photon position over time provides the data necessary to calculate the
+                                fluxes of and number of photons at each depth.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+                <p>
+                    Every scientific experiment requires quality control and has limitations. Mathematical models are no different, and
+                    quality assurance is undertaken in a process called validation, which compares model output data against
+                    independently generated data set or empirical data, running the model repeatedly to check reproducibility and
+                    tweaking individual parameters within the model to assess the model’s sensitivity and stability. In this paper that
+                    was an elaborate process and let’s just summarise: the model lived up to the standard required for its purpose.
+                </p>
+                <p>
+                    The model calculation results confirmed some phenomena already known to science: photons with lower
+                    wavelength, such as infrared, were attenuated rapidly in the surface layer of the ice, while shorter wavelength in the
+                    ultraviolet and short visible range penetrated to greater depths. There were also some new findings. For example,
+                    the scattering of photons by air bubbles means that eventually, some photons return to the surface, where they may
+
+                    be undergoing internal reflection back into the ice. This means that, at any given time, there may be up to 73.5%
+                    more low wavelength photons bouncing around within the ice than are supplied to the ice from the sun.
+                </p>
+                <p>
+                    Why is this relevant? Photons are energy and if they are absorbed by small contaminants, inclusions or heating the
+                    ice itself, they contribute to the energy budget of the ice at depth and hence, the behaviour of the ice with respect
+                    to cracking and melting. In addition, the model showed that particle inclusions within the ice may absorb enough
+                    energy from photons to cause the surrounding ice to melt and the particle to sink within the resulting cavity. This in
+                    turn, at very small scales, means that the melting of ice surrounding particles causes the released air bubbles to
+                    gather in the molten cavity, and photons will be refracted in different ways at the water-air, air-ice and water-ice
+                    interfaces within this cavity, with yet more consequences for the energy budget (sub-surface radiative field) within
+                    the ice.
+                </p>
+                <p>
+                    Although the paper concludes with an application of this work to explaining the differences between rocky and iron
+                    meteorites when it comes to sinking within the ice and where they may be found, it clearly has wider implications.
+                    The insights provided here show that the energy budget within surface ice needs to be re-considered in modelling of
+                    ice behaviour and for direct measurements of irradiance within the ice column.
+                </p>
+                <p>
+                    If you were interested enough to read to the end, I thank you and share a final thought with you: when you next
+                    hear about model predictions of global warming, sea level rise or glacial melt, think back to what you have read here
+                    and reflect upon the intricate work that lies behind this specific, seemingly small contribution to the field of climate
+                    change. Perhaps it will be easier to understand the large uncertainty associated with some predictions that go far
+                    into the future and appreciate that each new model is constructed with the best current expertise, breaking new
+                    ground, while the scientists behind it know that their effort is just one along a timeline of improvements that
+                    reaches from the beginning of modelling into the future.
+                </p>
+                <p class="u-text-center">
+                    <i>Charly Braungardt PhD</i>
+                </p>
+                <p class="u-text-center">
+                    <img src="images/BlogImages/challengingHabitat.png">
+                </p>
+            </div>
+
+            <div class="divider"></div>
             
             <h1 class="black title u-text-center">Antarctic Quest made the South West BBC news!</h1>
             <p>
@@ -281,5 +462,6 @@
         <script src="countdown.js"></script>
         <script src="header.js"></script>
         <script src="scalevideo.js"></script>
+        <script src="toggle.js"></script>
     </body>
 </html>
